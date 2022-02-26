@@ -1,0 +1,55 @@
+* {
+    background: #777;
+    font-family: "Quicksand", sans-serif;
+}
+
+.nav-bar {
+    font-size: 29px;
+    margin-right: 5%;
+
+    text-align: right;
+}
+
+.nav-bar ul l a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.info-box {
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 4px;
+    width: 40%;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 29.5%;
+    transform: scale(0);
+}
+
+.info-button {
+    text-align: center;
+}
+
+
+.info-button button {
+    color: white;
+    font-size: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.info-button button:hover {
+    border-radius: 35px;
+    background: white;
+    color: #777;
+    transition: 0.5s;
+}
