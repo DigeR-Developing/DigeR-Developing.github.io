@@ -3,6 +3,7 @@
 $('#about').on('mousemove', function() {
     $('#about').css('padding', '4px');
     $('#about').css('background', 'white');
+    $('#about').css('cursor', 'pointer');
     $('#about').css('color', '#777');
     $('#about').css('border-radius', '3rem');
     $('#about').css('border', '1px solid white');
@@ -25,6 +26,7 @@ $('#about').on('mouseleave', function() {
 $('#projects').on('mousemove', function() {
     $('#projects').css('padding', '4px');
     $('#projects').css('color', '#777');
+    $('#projects').css('cursor', 'pointer');
     $('#projects').css('background', 'white');
     $('#projects').css('border', '1px solid white');
     $('#projects').css('border-radius', '3rem');
@@ -48,6 +50,7 @@ $('#projects').on('mouseleave', function() {
 
 $('#coding').on('mousemove', function() {
     $('#coding').css('padding', '4px');
+    $('#coding').css('cursor', 'pointer');
     $('#coding').css('color', '#777');
     $('#coding').css('background', 'white');
     $('#coding').css('border', '1px solid white');
@@ -81,6 +84,7 @@ $('#show-info').click(function() {
 $('.info-box').on('mousemove', function() {
     if(infoclicked == true) {
         $('.info-box').css('background', 'white');
+
         $('.info-box').css('color', '#777');
         $('.info-box').css('border-radius', '40px');
 
@@ -109,4 +113,16 @@ $('.info-box').on('mouseleave', function() {
     } else {
         console.log("Button were never clicked, No events will be triggerd...");
     }
+})
+
+$('#projects').click(function() {
+    alert("Comming Soon...");
+})
+
+$('#about').click(function() {
+    alert("Comming Soon...");
+})
+
+$('#coding').click(function() {
+    alert("Comming Soon...");
 })
