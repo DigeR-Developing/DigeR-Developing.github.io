@@ -39,3 +39,7 @@ $('#contact').on('mouseleave', function() {
     $('#contact').css('background', '#777');
     $('#contact').css('transition', '0.6s');
 })
+
+$('#contact').click(function() {
+    alert("Comming Soon...");
+})

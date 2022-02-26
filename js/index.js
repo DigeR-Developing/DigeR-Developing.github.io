@@ -117,7 +117,7 @@ $('.info-box').on('mouseleave', function() {
         $('.info-box h1').css('transition', '0.6s');
 
         $('.info-box a').css('background', '#777');
-        $('.info-box a').css('transition', '0.6s');
+        $('.info-boxs a').css('transition', '0.6s');
     } else {
         console.log("Button were never clicked, No events will be triggerd...");
     }

@@ -4,10 +4,10 @@
 }
 
 .nav-bar {
-    font-size: 29px;
-    margin-right: 5%;
-
-    text-align: right;
+    font-size: 28px;
+    margin-right: 80px;
+    margin-top: 10%;
+    text-align: center;
 }
 
 .nav-bar ul l a {
@@ -58,4 +58,13 @@
     background: white;
     color: #777;
     transition: 0.5s;
+}
+
+
+.footer footer {
+    text-align: center;
+    /* margin-top: 1%; */
+    color: white;
+    margin-right: 2%;
+    font-size: 20px;
 }

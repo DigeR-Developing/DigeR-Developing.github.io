@@ -2,6 +2,16 @@
     background: #777;
     font-family: "Quicksand", sans-serif;
 }
+/* Small Functions */
+#contact {
+    cursor: pointer;
+}
+
+
+
+
+
+/* Small Functions */
 
 .header {
     text-align: center;
@@ -21,6 +31,8 @@
     text-decoration: none;
     text-align: center;
 }
+
+
 
 
 .footer footer {
