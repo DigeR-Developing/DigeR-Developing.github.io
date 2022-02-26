@@ -84,6 +84,7 @@ $('#show-info').click(function() {
 $('.info-box').on('mousemove', function() {
     if(infoclicked == true) {
         $('.info-box').css('background', 'white');
+        
 
         $('.info-box').css('color', '#777');
         $('.info-box').css('border-radius', '40px');
@@ -93,6 +94,10 @@ $('.info-box').on('mousemove', function() {
 
         $('.info-box h1').css('background', 'white');
         $('.info-box h1').css('transition', '0.6s');
+
+        $('.info-box a').css('background', 'white');
+        $('.info-box a').css('transition', '0.6s');
+
         console.log("info button clicked, Triggering Text Box events...")
     } else {
         console.log("Info Button is not clicked, Nothing will be triggerd...")
@@ -110,6 +115,9 @@ $('.info-box').on('mouseleave', function() {
 
         $('.info-box h1').css('background', '#777');
         $('.info-box h1').css('transition', '0.6s');
+
+        $('.info-box a').css('background', '#777');
+        $('.info-box a').css('transition', '0.6s');
     } else {
         console.log("Button were never clicked, No events will be triggerd...");
     }

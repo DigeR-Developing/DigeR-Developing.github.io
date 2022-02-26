@@ -31,6 +31,12 @@
     margin-left: 29.5%;
     transform: scale(0);
 }
+.info-box a {
+    text-decoration: underline;
+    color: red;
+    background: #777;
+}
+
 
 .info-button {
     text-align: center;
